@@ -13,7 +13,7 @@ Special thanks to Coder Space's tutorial which will be used as a baseline and gu
 
 ## Goals for the Project
 * Get acquainted with Pygame
-* Use OOP fundamentals through out the the whole project
+* Use OOP fundamentals throughout the whole project
 * Practice file organization
 * Create my very own Tetris clone
 

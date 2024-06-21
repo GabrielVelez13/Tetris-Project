@@ -8,7 +8,7 @@ class App:
         pg.display.set_caption("Tetris") #Adds name to window
         self.screen = pg.display.set_mode(FIELD_RES) #Sets the window size to the resolution
         self.clock = pg.time.Clock()
-        self.tetris = Tetris(self)
+        self.tetris = Tetris(self) #Handles the game logic
 
     def update(self): #Method used to update the game at a given FPS
         self.tetris.update()

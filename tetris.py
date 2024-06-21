@@ -7,7 +7,7 @@ import math
 class Tetris:
     def __init__(self, app):
         self.app = app
-        self.sprite_group = pg.sprite.Group()
+        self.sprite_group = pg.sprite.Group() #creates a sprite group
         self.tetromino = Tetromino(self)
 
 

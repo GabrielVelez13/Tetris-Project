@@ -16,7 +16,7 @@ class Block(pg.sprite.Sprite):
 class Tetromino:
     def __init__(self, tetris):
         self.tetris = tetris
-        Block(self, (6, 3))
+        Block(self, (2, 3))
 
     def update(self):
         pass
